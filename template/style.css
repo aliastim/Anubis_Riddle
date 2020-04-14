@@ -1,0 +1,1101 @@
+body
+{
+    /*background: black;*/
+    /*background-image: url("../Ressources/TestFond2.gif");*/
+
+   /* background-image: url("../Ressources/Fond.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+
+    /*margin-bottom: 350px;*/
+
+
+
+    background: url("../Ressources/Fond.png") no-repeat center center fixed;
+    background-size: cover;
+    margin:0;
+    padding:0;
+
+}
+
+@font-face {
+
+    font-family: 'hieroglyphe';
+
+    src: url('../Ressources/hieroglyphes.ttf');
+
+}
+
+@font-face {
+
+    font-family: 'volt';
+
+    src: url('../Ressources/Volte-Regular.otf');
+
+}
+
+@font-face {
+
+    font-family: 'trajan';
+
+    src: url('../Ressources/TrajanPro3-Regular.otf');
+
+}
+
+.title
+{
+    text-align: center;
+    color: white;
+    font-family: volt;
+}
+
+.marge-haute
+{
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .marge-haute
+    {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .marge-haute
+    {
+        margin-top: 100px;
+    }
+}
+
+.textscenario
+{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+    font-family: trajan;
+}
+
+.inptcompteur
+{
+    background: none;
+    width: 27px;
+    border: none;
+    color: white;
+    font-size: 35px;
+
+    font-family: trajan;
+}
+
+.textscenario2
+{
+    color: white;
+    text-align: center;
+
+    margin-top: 50px;
+    font-size: 15px;
+
+    font-family: trajan;
+}
+
+.textintro
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn_hiero
+{
+    font-family: hieroglyphe;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+
+
+    color: white;
+    background: #A59776;
+    border: none;
+    margin-top: 10px;
+
+    background-image: url("../Ressources/boutton_normal.png");
+    background-size: 150%;
+    background-position: center;
+
+    border-radius: 8px;
+}
+
+.btn_hiero:hover
+{
+    background-image: url("../Ressources/boutton_hover.png");
+    cursor: pointer;
+}
+
+.btn_hiero:active
+{
+    background-image: url("../Ressources/boutton_click.png");
+}
+
+.btn_hiero2
+{
+    font-family: volt;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+
+
+    color: white;
+    background: #A59776;
+    border: none;
+
+    background-image: url("../Ressources/boutton_normal.png");
+    background-size: 150%;
+    background-position: center;
+
+    border-radius: 8px;
+}
+
+.btn_hiero2:hover
+{
+    background-image: url("../Ressources/boutton_hover.png");
+    cursor: pointer;
+}
+
+.btn_hiero2:active
+{
+    background-image: url("../Ressources/boutton_click.png");
+}
+
+.btn_hiero3
+{
+    font-family: volt;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 20px;
+
+
+    color: white;
+    background: #A59776;
+    border: none;
+
+    background-image: url("../Ressources/boutton_normal.png");
+    background-size: 150%;
+    background-position: center;
+
+    border-radius: 8px;
+}
+
+.btn_hiero3:hover
+{
+
+    text-decoration: none;
+    color: white;
+    background-image: url("../Ressources/boutton_hover.png");
+    cursor: pointer;
+}
+
+.btn_hiero3:active
+{
+    background-image: url("../Ressources/boutton_click.png");
+}
+
+.btn_meldodie
+{
+    font-family: volt;
+    width: 50px;
+    height: 100px;
+
+    font-size: 20px;
+
+
+    color: black;
+    background: white;
+
+    border-radius: 40px 40px 40px 40px;
+}
+
+.btn_meldodie:hover
+{
+    background: darkgrey;
+}
+
+.btn_meldodie:active
+{
+    background: #F8AA22;
+    color: white;
+}
+
+.image-diff
+{
+    max-height: 600px;
+}
+
+.bouton-diff1
+{
+    position: absolute;
+    height: 80px;
+    width: 50px;
+
+    background: none;
+    border: none;
+
+    margin-top: 198px;
+    margin-left: 530px;
+}
+
+
+.bouton-diff2
+{
+    position: absolute;
+    height: 300px;
+    width: 150px;
+
+    background: none;
+    border: none;
+
+    margin-top: 75px;
+    margin-left: 215px;
+}
+
+.bouton-diff3
+{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+
+    background: none;
+    border: none;
+
+    margin-top: 420px;
+    margin-left: 330px;
+}
+
+.bouton-diff4
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+
+    background: none;
+    border: none;
+
+    margin-top: 480px;
+    margin-left: 530px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .bouton-diff1
+    {
+        height: 80px;
+        width: 50px;
+
+        margin-top: 198px;
+        margin-left: 441px;
+    }
+
+    .bouton-diff2
+    {
+        height: 300px;
+        width: 150px;
+
+        margin-top: 75px;
+        margin-left: 126px;
+    }
+
+    .bouton-diff3
+    {
+        height: 100px;
+        width: 120px;
+
+        margin-top: 420px;
+        margin-left: 241px;
+    }
+
+    .bouton-diff4
+    {
+        height: 50px;
+        width: 50px;
+
+        margin-top: 480px;
+        margin-left: 441px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .bouton-diff1
+    {
+        height: 80px;
+        width: 50px;
+
+        margin-top: 198px;
+        margin-left: 320px;
+    }
+
+    .bouton-diff2
+    {
+        height: 300px;
+        width: 150px;
+
+        margin-top: 75px;
+        margin-left: 5px;
+    }
+
+    .bouton-diff3
+    {
+        height: 100px;
+        width: 120px;
+
+        margin-top: 420px;
+        margin-left: 120px;
+    }
+
+    .bouton-diff4
+    {
+        height: 50px;
+        width: 50px;
+
+        margin-top: 480px;
+        margin-left: 320px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+{
+    .bouton-diff1
+    {
+        height: 70px;
+        width: 40px;
+
+        margin-top: 153px;
+        margin-left: 234px;
+    }
+
+    .bouton-diff2
+    {
+        height: 200px;
+        width: 100px;
+
+        margin-top: 75px;
+        margin-left: 7px;
+    }
+
+    .bouton-diff3
+    {
+        height: 80px;
+        width: 100px;
+
+        margin-top: 340px;
+        margin-left: 75px;
+    }
+
+    .bouton-diff4
+    {
+        height: 30px;
+        width: 30px;
+
+        margin-top: 375px;
+        margin-left: 239px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 575px)
+{
+    .bouton-diff1
+    {
+        height: 80px;
+        width: 60px;
+
+        margin-top: 153px;
+        margin-left: 240px;
+    }
+
+    .bouton-diff2
+    {
+        height: 200px;
+        width: 100px;
+
+        margin-top: 75px;
+        margin-left: 7px;
+    }
+
+    .bouton-diff3
+    {
+        height: 90px;
+        width: 110px;
+
+        margin-top: 340px;
+        margin-left: 75px;
+    }
+
+    .bouton-diff4
+    {
+        height: 40px;
+        width: 40px;
+
+        margin-top: 375px;
+        margin-left: 247px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px)
+{
+    .bouton-diff1
+    {
+        height: 80px;
+        width: 60px;
+
+        margin-top: 153px;
+        margin-left: 220px;
+    }
+
+    .bouton-diff2
+    {
+        height: 200px;
+        width: 100px;
+
+        margin-top: 75px;
+        margin-left: 7px;
+    }
+
+    .bouton-diff3
+    {
+        height: 90px;
+        width: 110px;
+
+        margin-top: 330px;
+        margin-left: 65px;
+    }
+
+    .bouton-diff4
+    {
+        height: 50px;
+        width: 50px;
+
+        margin-top: 350px;
+        margin-left: 222px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 499px)
+{
+    .bouton-diff1
+    {
+        height: 70px;
+        width: 50px;
+
+        margin-top: 143px;
+        margin-left: 200px;
+    }
+
+    .bouton-diff2
+    {
+        height: 180px;
+        width: 90px;
+
+        margin-top: 75px;
+        margin-left: 7px;
+    }
+
+    .bouton-diff3
+    {
+        height: 70px;
+        width: 90px;
+
+        margin-top: 310px;
+        margin-left: 55px;
+    }
+
+    .bouton-diff4
+    {
+        height: 40px;
+        width: 40px;
+
+        margin-top: 325px;
+        margin-left: 198px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 449px)
+{
+    .bouton-diff1
+    {
+        height: 60px;
+        width: 40px;
+
+        margin-top: 133px;
+        margin-left: 175px;
+    }
+
+    .bouton-diff2
+    {
+        height: 170px;
+        width: 80px;
+
+        margin-top: 65px;
+        margin-left: 0px;
+    }
+
+    .bouton-diff3
+    {
+        height: 60px;
+        width: 80px;
+
+        margin-top: 280px;
+        margin-left: 55px;
+    }
+
+    .bouton-diff4
+    {
+        height: 40px;
+        width: 40px;
+
+        margin-top: 295px;
+        margin-left: 168px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 399px)
+{
+    .bouton-diff1
+    {
+        height: 50px;
+        width: 60px;
+
+        margin-top: 118px;
+        margin-left: 140px;
+    }
+
+    .bouton-diff2
+    {
+        height: 145px;
+        width: 80px;
+
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .bouton-diff3
+    {
+        height: 60px;
+        width: 80px;
+
+        margin-top: 227px;
+        margin-left: 45px;
+    }
+
+    .bouton-diff4
+    {
+        height: 40px;
+        width: 70px;
+
+        margin-top: 250px;
+        margin-left: 133px;
+    }
+}
+
+.qua
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.qua2
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carreau
+{
+    width: 100%;
+    height: 80px;
+    background: darkorange;
+
+    /*box-shadow: darkorange 2px 2px 0;*/
+
+
+   /* background-image: url("../Ressources/boutton_normal.png");
+    background-size: 150%;
+    background-position: center;*/
+
+    border-radius: 8px;
+
+    background: url("../Ressources/boutton_normal.png") no-repeat center center fixed;
+    background-size: 200%;
+    margin:0;
+    padding:0;
+}
+
+.carreau:hover
+{
+    background-image: url("../Ressources/boutton_hover.png");
+    cursor: pointer;
+}
+
+.carreau:active
+{
+    background-image: url("../Ressources/boutton_click.png");
+}
+
+.containerquadrillage
+{
+    max-width: 1140px;
+}
+.justify-content-around2
+{
+    justify-content: space-around !important;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 991px)
+{
+    .justify-content-around2
+    {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+
+    .containerquadrillage
+    {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .carreau
+    {
+        height: 110px;
+
+        border-radius: 15px;
+
+        background-size: 160%;
+    }
+
+}
+.lienssculpture
+{
+    color: white;
+    text-decoration: none;
+}
+
+.inptCA
+{
+    width: 100%;
+    height: 170px;
+
+    font-size: 150px;
+    text-align: center;
+}
+
+.in1
+{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+
+    color: white;
+}
+
+.in2
+{
+    background: none;
+    border-top: none;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+
+    color: white;
+}
+
+.in3
+{
+    background: none;
+    border-top: none;
+    border-left: white 1px solid;
+    border-right: none;
+    border-bottom: white 1px solid;
+
+    color: white;
+}
+
+.in4
+{
+    background: none;
+    border-top: white 1px solid;
+    border-left: none;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+
+    color: white;
+}
+
+.in5
+{
+    background: none;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+
+    color: white;
+}
+
+.in6
+{
+    background: none;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-right: none;
+    border-bottom: white 1px solid;
+
+    color: white;
+}
+
+.in7
+ {
+     background: none;
+     border-top: white 1px solid;
+     border-left: none;
+     border-right: white 1px solid;
+     border-bottom: none;
+
+     color: white;
+ }
+
+.in8
+{
+    background: none;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-bottom: none;
+
+    color: white;
+}
+
+.in9
+{
+    background: none;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-right: none;
+    border-bottom: none;
+
+    color: white;
+}
+
+.equationimg
+{
+    max-height: 100px;
+}
+
+.fond10
+{
+   width: 100%;
+
+}
+
+.bouton-survie
+{
+    position: absolute;
+    height: 120px;
+    width: 170px;
+
+    background: none;
+    border: #F8AA22 1px solid;
+    border-radius: 40px 0 0 40px;
+
+    margin-top: 256px;
+    margin-left: -735px;
+
+
+    text-align: center;
+    font-family: volt;
+    font-size: 22px;
+    color: #F8AA22;
+    padding-top: 25px;
+}
+
+.bouton-survie:hover
+{
+    color: white;
+    background: #F8AA22;
+    text-decoration: none;
+}
+
+.bouton-sacrifice
+{
+    position: absolute;
+    height: 120px;
+    width: 170px;
+
+    background: none;
+    border: #F8AA22 1px solid;
+    border-radius: 0 40px 40px 0;
+
+    margin-top: -352px;
+    margin-left: 565px;
+
+    text-align: center;
+    font-family: volt;
+    font-size: 22px;
+    color: #F8AA22;
+    padding-top: 25px;
+}
+
+.bouton-sacrifice:hover
+{
+    color: white;
+    background: #F8AA22;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .bouton-survie
+    {
+        height: 90px;
+        width: 150px;
+
+        margin-top: 217px;
+        margin-left: -622px;
+
+        font-size: 22px;
+        padding-top: 12px;
+    }
+
+    .bouton-sacrifice
+    {
+        height: 90px;
+        width: 150px;
+
+        margin-top: -290px;
+        margin-left: 472px;
+
+        font-size: 22px;
+        padding-top: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .bouton-survie
+    {
+        height: 80px;
+        width: 110px;
+
+        margin-top: 152px;
+        margin-left: -454px;
+
+        font-size: 15px;
+        padding-top: 17px;
+    }
+
+    .bouton-sacrifice
+    {
+        height: 80px;
+        width: 110px;
+
+        margin-top: -219.5px;
+        margin-left: 344px;
+
+        font-size: 15px;
+        padding-top: 17px;
+    }
+}
+
+.bouton-survie2
+{
+    display: none;
+}
+
+.bouton-sacrifice2
+{
+    display: none;
+}
+
+@media screen and (max-width: 767px)
+{
+    .imgfinal
+    {
+        display: none;
+    }
+
+    .bouton-survie
+    {
+        display: none;
+    }
+
+    .bouton-sacrifice
+    {
+        display: none;
+    }
+
+    .bouton-survie2
+    {
+        display: block;
+
+        height: 120px;
+        width: 100%;
+
+        background: none;
+        border: #F8AA22 1px solid;
+        border-radius: 150px 150px 0 0;
+
+
+        text-align: center;
+        font-family: volt;
+        font-size: 20px;
+        color: #F8AA22;
+        padding-top: 39px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    .bouton-survie2:hover
+    {
+        color: white;
+        background: #F8AA22;
+        text-decoration: none;
+    }
+
+
+    .bouton-sacrifice2
+    {
+        display: block;
+
+        height: 120px;
+        width: 100%;
+
+        background: none;
+        border: #F8AA22 1px solid;
+        border-radius: 0 0 150px 150px;
+
+
+        text-align: center;
+        font-family: volt;
+        font-size: 20px;
+        color: #F8AA22;
+        padding-top: 39px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .bouton-sacrifice2:hover
+    {
+        color: white;
+        background: #F8AA22;
+        text-decoration: none;
+    }
+
+
+}
+/*
+@media screen and (min-width: 576px) and (max-width: 767px)
+{
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 575px)
+{
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px)
+{
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 499px)
+{
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 449px)
+{
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 399px)
+{
+
+}*/
+
+.btn-EN3
+{
+    font-family: trajan;
+    color: #F8AA22;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: 1px solid #F8AA22;
+
+    margin-top: 50px;
+}
+
+.btn-EN3:hover
+{
+    color: white;
+
+    background-image: url("../Ressources/boutton_click.png");
+    background-size: 150%;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+.img-pyramide
+{
+    height: 80px;
+    margin-bottom: -195px;
+}
+
+.btnrecmelodie
+{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 991px)
+{
+    .img-pyramide
+    {
+        height: 80px;
+        margin-top: 25px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .btnrecmelodie
+    {
+        margin-top: 80px;
+    }
+}
+
+.inputrecopie
+{
+    width: 100%;
+    margin-top: 50px;
+    font-family: hieroglyphe;
+    font-size: 50px;
+    /* color: black; */
+    border-radius: 20px 20px 20px 20px;
+
+    border: 1px solid white;
+    background: rgba(255,255,255,0.1);
+    color: #F8AA22;
+
+}
